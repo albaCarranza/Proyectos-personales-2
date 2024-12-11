@@ -1,0 +1,279 @@
+/* ==============================
+   CONFIGURACIÓN GLOBAL
+   ============================== */
+   * {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+/* ==============================
+   TÍTULOS
+   ============================== */
+h1,
+h2 {
+    color: #333333;
+}
+
+h1,
+.intro h1 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: normal;
+    margin: 10px;
+}
+
+/* ==============================
+   HEADER Y NAV
+   ============================== */
+header {
+    background-color: #333333;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    padding: 10px 10px;
+}
+
+nav a:hover {
+    color: #FF6B6B;
+}
+
+nav a.active {
+    background-color: #FF6B6B;
+    padding: 10px 10px;
+    border-bottom: 3px solid #FFFFFF;
+}
+
+/* ==============================
+   MAIN
+   ============================== */
+main {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+/* ==============================
+   CONTENEDORES
+   ============================== */
+.content-container {
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* ==============================
+   INTRODUCCIÓN
+   ============================== */
+.intro {
+    background: linear-gradient(to right, #FF6B6B, #F06595);
+    text-align: center;
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro p {
+    font-size: 1rem;
+    color: white;
+    margin-top: 10px;
+}
+
+/* ==============================
+   ESTILOS DE LOS SEMINARIOS
+   ============================== */
+.seminar {
+    margin-bottom: 40px;
+}
+
+.seminar p {
+    margin-bottom: 20px;
+}
+
+.feminist-economics-quote {
+    background-color: #FFE5E5;
+    border-left: 5px solid #FF6B6B;
+    color: #333333;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px;
+    font-style: italic;
+}
+
+.seminar blockquote {
+    background-color: #F4F4F4;
+    border-left: 5px solid #FF6B6B;
+    padding: 15px;
+    font-style: italic;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+}
+
+.seminar blockquote p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.seminar blockquote .author {
+    color: #FF6B6B;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.seminar blockquote .quote {
+    font-size: 3rem;
+    color: #FF6B6B;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+/* ==============================
+   LISTAS
+   ============================== */
+.improvements ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.improvements li {
+    margin-bottom: 10px;
+}
+
+/* ==============================
+   FOOTER
+   ============================== */
+footer {
+    background-color: #333333;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .feminist-economy {
+    font-style: italic;
+    color: #F06595;
+}
+
+footer .yellow {
+    font-style: normal;
+    color: #FFCC00;
+}
+
+footer .small {
+    font-size: 0.8rem;
+    color: #F06595;
+}
+
+footer a {
+    text-decoration: underline;
+    color: white;
+}
+
+/* ==============================
+   OTROS ESTILOS GENERALES
+   ============================== */
+.seminars {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.history img {
+    height: 20px;
+    width: auto;
+    margin-left: 20px;
+}
+
+blockquote {
+    background-color: #F4F4F4;
+    padding: 15px;
+    border-left: 4px solid #FF6B6B;
+    font-style: italic;
+    color: #333;
+}
+
+a {
+    color: #FF6B6B;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F06595;
+}
+
+a:focus {
+    outline: 2px solid #FF6B6B;
+}
+
+img {
+    height: auto;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul li {
+    display: flex;
+}
+
+ul li img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+ol {
+    margin-left: 20px;
+}
